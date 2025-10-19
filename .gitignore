@@ -3,3 +3,4 @@ openmetadata-docker/config/*
 openmetadata-docker/dags/*
 openmetadata-docker/logs/*
 openmetadata-docker/plugins/*
+.venv/
