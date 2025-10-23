@@ -13,12 +13,13 @@ Based on [Open Metadata > Deployment > Docker Deployment](https://docs.open-meta
     ```bash
     curl -L -o docker-compose.yml https://github.com/open-metadata/OpenMetadata/releases/download/1.10.1-release/docker-compose-openmetadata.yml
     ```
-3. Setup Docker Compose cluster
+3. Remove `restart: always` from `services.postgres`, `services.redis`, `services.airflow-apiserver`, `services.airflow-scheduler`, `services.airflow-dag-processor`, `services.airflow-worker`, `services.airflow-triggerer`, `flower`, `services.openmetadata-server`
+4. Setup Docker Compose cluster
     ```bash
     docker compose up -d
     ```
    * http://localhost:8585/ - `admin@open-metadata.org` / `admin` is the default credentials
-4. Administer Docker Compose cluster
+5. Administer Docker Compose cluster
    * Stop the Docker Compose cluster
        ```bash
        docker compose stop

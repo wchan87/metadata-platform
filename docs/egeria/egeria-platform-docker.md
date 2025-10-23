@@ -51,12 +51,13 @@ An alternative approach is through the [odpi/egeria-workspaces](https://github.c
     ```bash
     cd compose-configs/egeria-quickstart
     ```
-5. Run `docker compose` to start the containers
+5. Remove `restart: always` from `services.postgres` to prevent it from automatically restarting with Docker Desktop
+6. Run `docker compose` to start the containers
     ```bash
     docker compose -f egeria-quickstart.yaml up --build -d
     ```
     * Jupyter: http://localhost:7888 (use `egeria` as password)
-6. Use `docker compose` to interact with the containers
+7. Use `docker compose` to interact with the containers
     * Start the cluster
         ```bash
         docker compose -f egeria-quickstart.yaml up -d
