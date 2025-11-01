@@ -33,3 +33,5 @@ The [Getting Started](https://openlineage.io/getting-started) guide for OpenLine
        ```bash
        docker compose down --volumes
        ```
+
+See related [OpenLineage Connector for Open Metadata](../openmetadata/README.md#openlineage-connector) as alternative to Marquez.
