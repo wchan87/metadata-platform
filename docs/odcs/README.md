@@ -5,6 +5,7 @@
 See [Data Contract CLI](https://cli.datacontract.com/) as a means to help with working with the ODCS. Note that Data Contract CLI supports Python 3.10 to 3.12 with Python 3.11 recommended.
 
 ```bash
+cd datacontract-cli
 python -m venv .venv
 source .venv/Scripts/activate
 pip install 'datacontract-cli[all]'
