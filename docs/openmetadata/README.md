@@ -13,7 +13,7 @@ Based on [Open Metadata > Deployment > Docker Deployment](https://docs.open-meta
     ```bash
     curl -L -o docker-compose.yml https://github.com/open-metadata/OpenMetadata/releases/download/1.10.4-release/docker-compose.yml
     ```
-3. Setup Docker Compose cluster
+3. Set up the Docker Compose cluster
     ```bash
     docker compose up -d
     ```
@@ -28,7 +28,7 @@ Based on [Open Metadata > Deployment > Docker Deployment](https://docs.open-meta
        ```bash
        docker compose stop
        ```
-   * Teardown the Docker Compose cluster
+   * Tear down the Docker Compose cluster
        ```bash
        docker compose down --volumes
        ```

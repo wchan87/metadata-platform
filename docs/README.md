@@ -10,3 +10,4 @@ This folder is meant to capture notes regarding various metadata frameworks dist
 | [Open Data Production Specification](odps/README.md) | Open Data Production Specification |
 | [OpenLineage](openlineage/README.md) | An open source data lineage standard |
 | [Open Metadata](openmetadata/README.md) | An open source metadata standard |
+| [Entropy Data](entropydata/README.md) | UI with Community Edition that supports Open Data Contract Standard and Open Data Production Specification |

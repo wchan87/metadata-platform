@@ -1,3 +1,5 @@
 .idea/
 openmetadata-docker/docker-volume/
 .venv/
+!deequ/temp/.gitkeep
+deequ/temp/**/*
