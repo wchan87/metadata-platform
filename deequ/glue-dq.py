@@ -33,7 +33,7 @@ def write_output_dq_results(glue_context: GlueContext, dq_results: DynamicFrame)
 # https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api-crawler-pyspark-transforms-EvaluateDataQuality.html
 def evaluate_dq_via_awsgluedq(ruleset: str, dyf: DynamicFrame) -> DynamicFrame:
     from awsgluedq.transforms import EvaluateDataQuality
-    dyf_dq_results: DynamicFrame  = EvaluateDataQuality.apply(
+    dyf_dq_results: DynamicFrame = EvaluateDataQuality.apply(
         frame=dyf,
         ruleset=ruleset,
         publishing_options={
